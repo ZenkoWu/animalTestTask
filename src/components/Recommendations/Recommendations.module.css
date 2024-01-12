@@ -1,0 +1,85 @@
+.container {
+    background-color: #F5F5F5; 
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.textContainer {
+    margin-left: 2vw;
+    width: 45vw;
+}
+.title {
+    color: #7884A5;
+    padding-bottom: 2%;
+    font-size: 3vw;
+}
+.description { 
+    color: #292E3D;
+    font-size: 1.7vw;
+    line-height: 1.95vw;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 25%));
+}
+.articles {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    width: 100vw;
+}
+
+.articleCardText{
+    padding: 0 5px;
+    color: #525C7A;
+}
+.articleCardText a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vw;
+    font-weight: 500;
+}
+.articleCardText a:visited {
+    color: #4FBA67;
+}
+.articleCardText p {
+    font-size: 1.5vw;
+}
+.articles::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}   
+.articlesImg {
+    width: 18vw;
+    height: 18vw;
+}
+.types__1 {
+    border-radius: 0 65%;
+}
+.types__2 {
+    border-radius: 65% 0;
+}
+.types__3 {
+    border-radius: 50%;
+}
+.types__4 {
+    border-radius: 600px;
+    width: 36vw;
+}
+.types__5 {
+    border-radius: 35% 0;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+    margin-bottom: 0;
+}
+.arrowImg {
+    width: 13vw;
+}
+.arrowBtn{
+    background-color: transparent;
+    border: none;
+}
